@@ -1,0 +1,109 @@
+
+const users = ["Ana", "Fernando", "Rafael", "Clara", "Maria"];
+ 
+users.push("Roger", "Artur");
+
+console.log(users); 
+
+// "Ana", "Fernando", "Rafael", "Clara", "Maria", "Roger", "Artur"
+
+//======================================================================\\
+
+const testpop = ["Artur", "Melo", "de", "Albuquerque"];
+
+testpop.pop(); // ["Albuquerque"]
+
+console.log(testpop); // ["Artur", "Melo", "de"]
+
+//======================================================================\\
+
+const testshift = ["Artur", "Melo", "de", "Albuquerque"];
+
+testshift.shift(); // ["Artur"]
+
+console.log(testshift); // ["Melo", "de", "Albuquerque"]
+
+//======================================================================\\
+
+const testunshift = ["Artur", "Melo", "de", "Albuquerque"];
+
+testunshift.unshift("Nome:");
+
+console.log(testunshift);
+
+//======================================================================\\
+
+const jobs = ["Frontend", "Backend", "DevOps", "FullStack"];
+let indexOf = jobs.indexOf("Frontend");
+
+console.log(indexOf); // output: 0
+
+//----------------------------------------------------------------------\\
+
+const fruits = ["Apple", "Orange", "Banana", "Pear"];
+let indexOfSearch = fruits.indexOf("Orange", 1);
+
+console.log(indexOfSearch);
+
+//======================================================================\\
+
+const jobs2 = ["Frontend", "Backend", "DevOps", "FullStack"];
+
+jobs2.sort();
+
+console.log(jobs2);
+
+//======================================================================\\
+
+const colors = ["Red", "Green", "White", "Black"];
+
+let join = colors.join(", ");
+
+console.log(join); //output: Red, Green, White, Black
+
+
+
+
+
+
+
+
+
+
+
+//============================ ATIVIDADE ===============================\\
+
+const atv1 = ["teste", "para", "manipular", "arrays"];
+
+let atv1join = atv1.join("-");
+
+console.log(atv1join);
+                              
+//=========================== ATIVIDADE 2 ==============================\\
+
+const alfabetica = ["Abacaxi", "Discoteca", "Brasil", "Código"];
+
+alfabetica.sort();
+
+console.log(alfabetica);
+
+//=========================== ATIVIDADE 3 ==============================\\
+
+function myFunction(a, b){
+    let array = [];
+
+    if(a.indexof(b) !==-1) {
+        array.push(b+a);
+        return array;
+    }else{
+        array.push(a+b);
+        return array;
+    }
+}
+//=========================== ATIVIDADE 4 ==============================\\
+
+const atvshift = ["Artur", "Melo", "de", "Albuquerque"];
+
+atvshift.shift(); // ["Artur"]
+
+console.log(atvshift); // ["Melo", "de", "Albuquerque"]
