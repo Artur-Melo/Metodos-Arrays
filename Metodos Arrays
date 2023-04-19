@@ -1,4 +1,6 @@
 
+//===============================   PUSH  ==============================\\
+
 const users = ["Ana", "Fernando", "Rafael", "Clara", "Maria"];
  
 users.push("Roger", "Artur");
@@ -7,7 +9,10 @@ console.log(users);
 
 // "Ana", "Fernando", "Rafael", "Clara", "Maria", "Roger", "Artur"
 
-//======================================================================\\
+
+
+
+//===============================   POP  ==============================\\
 
 const testpop = ["Artur", "Melo", "de", "Albuquerque"];
 
@@ -15,7 +20,10 @@ testpop.pop(); // ["Albuquerque"]
 
 console.log(testpop); // ["Artur", "Melo", "de"]
 
-//======================================================================\\
+
+
+
+//==============================   SHIFT  ==============================\\
 
 const testshift = ["Artur", "Melo", "de", "Albuquerque"];
 
@@ -23,7 +31,10 @@ testshift.shift(); // ["Artur"]
 
 console.log(testshift); // ["Melo", "de", "Albuquerque"]
 
-//======================================================================\\
+
+
+
+//=============================   UNSHIFT  =============================\\
 
 const testunshift = ["Artur", "Melo", "de", "Albuquerque"];
 
@@ -31,7 +42,10 @@ testunshift.unshift("Nome:");
 
 console.log(testunshift);
 
-//======================================================================\\
+
+
+
+//=============================   INDEXOF  =============================\\
 
 const jobs = ["Frontend", "Backend", "DevOps", "FullStack"];
 let indexOf = jobs.indexOf("Frontend");
@@ -45,7 +59,11 @@ let indexOfSearch = fruits.indexOf("Orange", 1);
 
 console.log(indexOfSearch);
 
-//======================================================================\\
+
+
+
+//===============================   SORT  ==============================\\
+
 
 const jobs2 = ["Frontend", "Backend", "DevOps", "FullStack"];
 
@@ -53,7 +71,11 @@ jobs2.sort();
 
 console.log(jobs2);
 
-//======================================================================\\
+
+
+
+//==============================   JOIN  ===============================\\
+
 
 const colors = ["Red", "Green", "White", "Black"];
 
@@ -67,11 +89,7 @@ console.log(join); //output: Red, Green, White, Black
 
 
 
-
-
-
-
-//============================ ATIVIDADE ===============================\\
+//============================ ATIVIDADE 1 ===============================\\
 
 const atv1 = ["teste", "para", "manipular", "arrays"];
 
